@@ -1,0 +1,6 @@
+---
+
+
+
+- name: ping
+  win_ping:
