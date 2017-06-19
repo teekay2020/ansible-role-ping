@@ -29,6 +29,14 @@ Including an example of how to use your role (for instance, with variables passe
          - { role: ansible-role-ping }
 
 
+
+If you are calling this role in your galaxy and also using a domain account, you might want to create a group_var/all
+
+    |- group_vars
+    |---- all
+    |-------main.yml
+    |-------vault.yml
+
 .
 ------------------
 .
